@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ultimate Editing Pack</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .header nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .hero {
+            background: url('hero-image.jpg') no-repeat center center/cover;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .hero h1 {
+            font-size: 50px;
+            margin-bottom: 20px;
+        }
+        .hero p {
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+        .hero button {
+            background-color: #ff6347;
+            border: none;
+            padding: 15px 30px;
+            font-size: 18px;
+            color: white;
+            cursor: pointer;
+        }
+        .hero button:hover {
+            background-color: #e55337;
+        }
+        .features {
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .features h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        .features p {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        .testimonials {
+            background: #f4f4f4;
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .testimonials h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        .testimonial {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        .footer {
+            background: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .footer a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#features">Features</a>
+            <a href="#testimonials">Testimonials</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </div>
+    <div class="hero" id="home">
+        <div>
+            <h1>Ultimate Editing Pack</h1>
+            <p>Enhance your videos with the best editing tools available!</p>
+            <button>Buy Now</button>
+        </div>
+    </div>
+    <div class="features" id="features">
+        <h2>Features</h2>
+        <p>All-in-one editing toolkit</p>
+        <p>High-quality transitions and effects</p>
+        <p>Easy-to-use interface</p>
+        <p>Regular updates with new features</p>
+    </div>
+    <div class="testimonials" id="testimonials">
+        <h2>What Our Customers Say</h2>
+        <div class="testimonial">
+            "The Ultimate Editing Pack has transformed my video editing process. Highly recommended!"
+        </div>
+        <div class="testimonial">
+            "A must-have for any video editor. The tools are top-notch and easy to use."
+        </div>
+    </div>
+    <div class="footer">
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact Us</a>
+        <a href="#faq">FAQ</a>
+        <p>&copy; 2024 Ultimate Editing Pack. All rights reserved.</p>
+    </div>
+</body>
+</html>
